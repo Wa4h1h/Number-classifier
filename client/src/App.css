@@ -1,0 +1,38 @@
+.wrapper{
+  height: 100vh;
+  width: 100vw;
+  background-color: #EEE0C0;
+  display: flex;
+  justify-content: center;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.buttons{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+.surface{
+  border-color: black;
+  border-style: solid;
+  width: 200px;
+  height: 200px;
+}
+
+.buttons button{
+  background-color: #D6CB9E;
+  color: white;
+  border-radius: 8px;
+}
+
+.content p{
+  font-weight: bold;
+  font-size: 2em;
+  color: #424642;
+}
