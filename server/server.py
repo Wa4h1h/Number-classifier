@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-print("name",__name__)
+
 
 @app.route('/classify', methods=['POST'])
 def classify():
